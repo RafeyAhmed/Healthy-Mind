@@ -1,0 +1,41 @@
+.hero{
+    background-image: url(../assets/freepik__upload__18243.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .card-header-form{
+    border-radius: 10px;
+  }
+  .card-form {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40rem;
+  }
+  .card-header-form {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  .card, .card-form{
+    box-shadow: 2px 4px 16px #dfdfdf;
+    border: 2px solid #656565 !important;
+  }
+  .card:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+  }
+  .card{
+    background-image: url(../assets/freepik__upload__18243.jpeg);
+    max-width: 25rem;
+    max-height: 25rem;
+  }
+@media(max-width: 800px){
+  .card-form{
+    max-width: 25rem;
+  }
+}
+@media(max-width: 576px){
+  .card-form{
+    max-width: 20rem;
+  }
+}

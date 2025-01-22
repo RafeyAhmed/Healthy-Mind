@@ -1,0 +1,50 @@
+.hero{
+    min-height: 600px;
+    width: 100%;
+    background-image: url(../assets/coursesherogb.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-hero{
+    min-height: 375px;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 0.4s ease;
+}
+.cont-header{
+    border-bottom: 1px solid #4ca5ff;
+}
+.card-img-top{
+    max-height: 300px;
+}
+.img-posture-one{
+    height: 600px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.img-posture-two{
+    height: 600px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.section-two-card{
+background: rgb(255,255,255);
+background: linear-gradient(20deg, rgba(255,255,255,1) 5%, rgba(76,165,255,1) 100%) ;
+}
+.card-premium-benifits:hover{
+    background-color: #858585;
+    color: white;
+    transition: background-color, color 0.5s ease;
+}
+.card-pricing{
+    border: 1px solid white;
+}
+@media(max-width: 576px){
+    .img-posture-one{
+        border-radius: 0px;
+    }.img-posture-two{
+        border-radius: 0px;
+    }
+}

@@ -1,0 +1,25 @@
+.pose-section {
+    margin-top: 50px;
+}
+.pose-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.pose-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.pose-title {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+.pose-subtitle {
+    color: #666;
+    margin-bottom: 10px;
+}
+.pose-text {
+    text-align: left;
+}

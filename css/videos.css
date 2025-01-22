@@ -1,0 +1,7 @@
+.hero{
+    min-height: 600px;
+    width: 100%;
+    background-image: url(../assets/cinema-strip-2713352_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,14 @@
+.hero{
+    min-height: 600px;
+    width: 100%;
+    background-image: url(../assets/hihero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-posture-one{
+    height: 600px;
+    border-radius: 20px;
+}
+.section-cards-one:hover, .section-cards-two:hover{
+    cursor: pointer;
+}

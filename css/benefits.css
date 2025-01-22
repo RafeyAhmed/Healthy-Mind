@@ -1,0 +1,41 @@
+*{
+    padding: none !important;
+}
+.hero{
+    min-height: 600px;
+    width: 100%;
+    background-image: url(../assets/benefitshero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-posture-one{
+    height: 550px;
+}
+.section-sub-hero{
+    /* background-color: #858585; */
+}
+.img-twin{
+    height: 700px;
+}
+.btn-big-hero:hover .fa-control{
+    color: black !important;
+}
+.section-bg-cont{
+    background-image: url(../assets/lantern-6826697_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+}
+.img-card-one{
+    min-height: 300px;
+}
+.card-one:hover , .card-two:hover , .card-three:hover{
+    color: #f0f0f0;
+    cursor: pointer;
+    background-color: #858585;
+    transition: transform 0.4s ease;
+}
+.card-one:hover .img-card-one, .card-two:hover .img-card-one, .card-three:hover .img-card-one{
+    transform: scale(0.95);
+    transition: transform 0.4s ease;
+}

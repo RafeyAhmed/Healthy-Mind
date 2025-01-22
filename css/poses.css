@@ -1,0 +1,23 @@
+.card{
+    max-width: 20rem;
+}
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.hero{
+    min-height: 500px;
+    width: 100%;
+    background-image: url(../assets/hellebore-6471156_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-img-top{
+    max-height: 200px;
+}
+.ad-banner{
+    min-height: 500px;
+}
+.ad-row{
+    max-width: 70%;
+}
